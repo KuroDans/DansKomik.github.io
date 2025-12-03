@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Munou no Akudou Ouji</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+
+        /* 🔥 BACKGROUND GAMBAR 🔥 */
+        background-image: url(/D:/Website/BG1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* bikin elegan */
+      }
+
+      /* Optional overlay (biar teks tetap jelas) */
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.4); /* gelapkan sedikit */
+        z-index: -1;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 32px;
+        color: white; /* jelas di atas background */
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
+      }
+
+      .chapter {
+        width: 50%;
+        max-width: 500px;
+        margin: 15px auto;
+        padding: 15px 20px;
+        background: white;
+        border-radius: 8px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: 0.2s;
+        text-align: left;
+      }
+
+      .chapter:hover {
+        transform: scale(1.02);
+        background: #f0f0f0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="overlay"></div>
+    <!-- Overlay supaya teks tetap jelas -->
+
+    <h1>
+      Munou no Akudou Ouji wa Ikinokoritai: Ren'ai RPG no Akuyaku Mob ni Tensei
+      Shita kedo, Gensaku Mushi Shite Saikyou o Mezasu
+    </h1>
+
+    <div
+      class="chapter"
+      onclick="window.location.href='/Website/Komik/Munou no Akudou Ouji wa Ikinokoritai/chapter1.html'"
+    >
+      Chapter 1
+    </div>
+
+    <div
+      class="chapter"
+      onclick="window.location.href='/Website/Komik/Munou no Akudou Ouji wa Ikinokoritai/chapter2.html'"
+    >
+      Chapter 2
+    </div>
+
+    <div
+      class="chapter"
+      onclick="window.location.href='/Website/Komik/Munou no Akudou Ouji wa Ikinokoritai/chapter3.html'"
+    >
+      Chapter 3
+    </div>
+  </body>
+</html>
